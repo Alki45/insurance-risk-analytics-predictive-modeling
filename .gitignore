@@ -1,4 +1,7 @@
-data/
+# Ignore actual data files
+/data/processed/*
+# BUT keep .dvc metadata files
+!data/processed/*.dvc
 __pycache__/
 .venv
 *.pkl
